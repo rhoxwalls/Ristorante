@@ -1,0 +1,1091 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ristorante Italiano</title>
+    <link href="./output.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/fe74e993de.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="fixed z-50 w-[100%]">
+        <div class=" 
+        justify-between     
+        bg-oscuro 
+        text-white 
+        font-semibold
+        font-parrafos
+        w-[100%] 
+        overflow-visible
+        flex 
+    ">
+            <div class="mx-4 flex justify-between w-[100%]">
+                <h2 class=" 
+                text-[3rem] 
+                font-titulos
+                pt-1
+                ">
+                    Ristorante
+                    <span class="text-verde">Tu</span>
+                    <span class="text-blanco">ri</span>
+                    <span class="text-rojo">lli</span>
+                </h2>
+
+                <nav class="
+                        nav 
+                        ocultar 
+                        md:flex 
+                        mt-6
+                        font-parrafos
+                        font-bold 
+                        ">
+                    <a class=" a-nav px-4 transition-all ease-in duration-300" href="#inicio">Inicio</a>
+                    <a class=" a-nav px-4 transition-all ease-in duration-300" href="#nosotros">Sobre Nosotros</a>
+                    <a class=" a-nav px-4 transition-all ease-in duration-300" href="#menu">Menú</a>
+                    <a class=" a-nav px-4 transition-all ease-in duration-300" href="#chef">Chef</a>
+                    <a class=" a-nav px-4 transition-all ease-in duration-300" href="#contacto">Contacto</a>
+                </nav>
+
+                <div class="hamburguesa mt-5 md:hidden">
+                    <span class="
+                        bg-blanco
+                        block
+                        mb-2
+                        w-[4rem]
+                        h-[.5rem]
+                        rounded-full 
+                        "></span>
+                    <span class=" 
+                        bg-blanco
+                        block
+                        mb-2
+                        w-[4rem]
+                        h-[.5rem]
+                        rounded-full 
+                        "></span>
+                    <span class="
+                        bg-blanco
+                        block
+                        mb-2
+                        w-[4rem]
+                        h-[.5rem]
+                        rounded-full 
+                        "></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="relative">
+            <div class="
+            content-none
+            absolute
+            top-0
+            left-0
+            right-0
+            bottom-0
+            bg-black
+            bg-opacity-50
+            ">
+                <div class="
+                absolute 
+                z-20 
+                w-[100%] 
+                h-[100%]
+                rounded-xl
+                flex
+                flex-col
+                mt-20
+                ">
+                    <h2 class="
+                    text-white 
+                    font-bold 
+                    mt-10
+                    md:mt-20
+                    p-10
+                    text-6xl
+                    font-titulos
+                    text-center   
+                    ">Acoglienza</h2>
+
+                    <a href="#" class="
+                    text-white 
+                    font-bold
+                    px-2
+                    w-[150px]
+                    mx-auto 
+                    p-2
+                    text-center
+                    border
+                    border-w
+                    rounded-xl 
+                    ">il nostro menú</a>
+                </div>
+            </div>
+        </div>
+        <div class="aspect-w-16">
+            <video autoplay="autoplay" loop="loop" class="video_background" preload="auto" volumen="none">
+                <source src="/assets/video/bg_video.mp4" type="video/mp4" />
+            </video>
+        </div>
+
+    </section>
+
+    <section id="nosotros" class="
+    nosotros 
+    mx-auto 
+    mt-2 
+    w-[95%] 
+    grid
+    h-[643px]
+    sm:flex-wrap
+    md:grid
+    md:grid-flow-col
+    ">
+        <div class="
+        grid-cols-6
+        text-black 
+        text-start
+        px-10
+        ">
+            <p class=" 
+            mt-40 
+            mb-5
+            text-6xl
+            text-verde
+            ">
+                Benvenuti a!
+            </p>
+            <h1 class="
+            mb-5
+            text-8xl
+            font-titulos 
+            ">
+                Ristorante Turilli
+            </h1>
+            <p class=" font-parrafos">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi, ullam officia ut
+                maiores aliquam odio
+                quae ipsa non necessitatibus aliquid, atque facere laboriosam sunt. Quod fugiat repellat velit tempora
+                expedita?</p>
+            <button class="
+            font-bold 
+            mt-10
+            p-5
+            border
+            rounded-xl
+            border-rojo
+            bg-rojo">Contacto</button>
+        </div>
+        <div class="
+        imagenes-nosotros 
+        grid-cols-6 
+        md:w-[530px] 
+        xs:w-[99%] 
+        flex 
+        flex-wrap 
+        md:justify-end
+        xs:justify-start">
+            <div class="
+            w-[250px] 
+            h-[350px] 
+            mt-[62px]
+            md:mt-[62px]
+            ">
+                <img class="rounded-lg" data-src="/assets/img/nosotros1.webp" alt="fotoCliente">
+            </div>
+            <div class="
+            w-[250px] 
+            h-[350px] 
+            p-1 
+            md:mt-[60px]
+            xs:mt-[20px]
+            ">
+                <img class="rounded-lg" data-src="/assets/img/nosotros2.webp" alt="fotoCliente">
+            </div>
+            <div class="
+            w-[250px] 
+            h-[350px] 
+            p-1 
+            md:mt-[-190px]
+            sm:mt-[-190px]
+            mdd:ml-[250px]
+            mdd:mt-[-190px]
+            sm-md:mt-[-150px]
+            sm-md:ml-[0px]
+            sm-mdd:mt-[-150px]
+            sm-mdd:ml-[0px]
+            xs:mt-[-150px]
+            ">
+                <img class="rounded-lg" data-src="/assets/img/nosotros3.webp" alt="fotoCliente">
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="  xs:mt-[950px] sm-md:mt-[850px] sm:mt-[400px]  mdd:mt-[400px] md:mt-[100px]">
+        <h2 class="font-titulos text-8xl text-center font-bold">Platillos populares</h2>
+        <div class=" mt-10 flex justify-center xs:flex-wrap">
+            <button class="
+            todo
+            rounded-xl 
+            bg-verde 
+            font-semibold 
+            font-serif
+            p-3
+            px-10
+            mx-3
+            mb-10
+            hover:bg-rojo
+            transition
+            duration-[.6s]
+            ease-in-out">Todo</button>
+            <button class="
+            ensalada
+            rounded-xl 
+            bg-verde 
+            font-semibold 
+            font-serif
+            p-3
+            px-10
+            mx-3
+            mb-10
+            hover:bg-rojo
+            transition
+            duration-[.6s]
+            ease-in-out">Ensalada</button>
+            <button class="
+            pasta
+            rounded-xl 
+            bg-verde
+            font-semibold 
+            font-serif
+            p-3
+            px-10
+            mx-3
+            mb-10
+            hover:bg-rojo
+            transition
+            duration-[.6s]
+            ease-in-out">Pasta</button>
+            <button class="
+            pizza
+            rounded-xl 
+            bg-verde 
+            font-semibold 
+            font-serif
+            p-3
+            px-10
+            mx-3
+            mb-10
+            hover:bg-rojo
+            transition
+            duration-[.6s]
+            ease-in-out">Pizza</button>
+            <button class="
+            postre
+            rounded-xl 
+            bg-verde 
+            font-semibold 
+            font-serif
+            p-3
+            px-10
+            mx-3
+            mb-10
+            hover:bg-rojo
+            transition
+            duration-[.6s]
+            ease-in-out">Postre</button>
+        </div>
+
+        <div class="platillos flex gap-10 xl:gap-20 justify-center mb-10 flex-wrap mx-auto lg:w-[100%] xl:w-[80%]">
+
+            <div class="
+                platillo
+                border
+                rounded-xl 
+                border-gray-400
+                h-[350px]
+                w-[250px]
+                mx-5
+                " data-platillo="ensalada">
+                <img data-src="/assets/img/ensalada2.webp" alt="ensalda" class="
+                    rounded-t-xl
+                    h-[150px]
+                    w-[230px]
+                    mx-auto
+                    mt-3">
+                <div class="block text-center">
+                    <div>
+                        <h4 class="
+                        text-center
+                        mt-5
+                        text-2xl
+                        font-parrafos
+                        font-bold  
+                        ">
+                            Platillo
+                        </h4>
+                        <p class="mt-3 mx-3 text-left">Receta/ingredientes. Lorem ipsum dolor sit amet consectetur
+                            adipisicing
+                            elit.</p>
+                    </div>
+                    <div class="flex justify-between mx-5 mt-10">
+                        <p class=" 
+                        text-3xl
+                        font-bold
+                        mt-8">$36</p>
+                        <button class="
+                        border
+                        rounded
+                        border-red-800
+                        p-3
+                        bg-rojo"><img class="h-10" data-src="/assets/icons/basket-shopping-solid.svg"
+                                alt="canasta"></button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="
+                platillo
+                border
+                rounded-xl 
+                border-gray-400
+                h-[350px]
+                w-[250px]
+                mx-5
+                " data-platillo="ensalada">
+                <img data-src="/assets/img/ensalada.webp" alt="ensalda" class="
+                    rounded-t-xl
+                    h-[150px]
+                    w-[230px]
+                    mx-auto
+                    mt-3">
+                <div class="block text-center">
+                    <div>
+                        <h4 class="
+                        text-center
+                        mt-5
+                        text-2xl
+                        font-parrafos
+                        font-bold  
+                        ">
+                            Platillo
+                        </h4>
+                        <p class="mt-3 mx-3 text-left">Receta/ingredientes. Lorem ipsum dolor sit amet consectetur
+                            adipisicing
+                            elit.</p>
+                    </div>
+                    <div class="flex justify-between mx-5 mt-10">
+                        <p class=" 
+                        text-3xl
+                        font-bold
+                        mt-8">$36</p>
+                        <button class="
+                        border
+                        rounded
+                        border-red-800
+                        p-3
+                        bg-rojo"><img class="h-10" data-src="/assets/icons/basket-shopping-solid.svg"
+                                alt="canasta"></button>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="
+                platillo
+                border
+                rounded-xl 
+                border-gray-400
+                h-[350px]
+                w-[250px]
+                mx-5
+                " data-platillo="ensalada">
+                <img data-src="/assets/img/ensalada2.webp" alt="ensalada" class="
+                    rounded-t-xl
+                    h-[150px]
+                    w-[230px]
+                    mx-auto
+                    mt-3">
+                <div class="block text-center">
+                    <div>
+                        <h4 class="
+                        text-center
+                        mt-5
+                        text-2xl
+                        font-parrafos
+                        font-bold  
+                        ">
+                            Platillo
+                        </h4>
+                        <p class="mt-3 mx-3 text-left">Receta/ingredientes. Lorem ipsum dolor sit amet consectetur
+                            adipisicing
+                            elit.</p>
+                    </div>
+                    <div class="flex justify-between mx-5 mt-10">
+                        <p class=" 
+                        text-3xl
+                        font-bold
+                        mt-8">$36</p>
+                        <button class="
+                        border
+                        rounded
+                        border-red-800
+                        p-3
+                        bg-rojo"><img class="h-10" data-src="/assets/icons/basket-shopping-solid.svg"
+                                alt="canasta"></button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="
+                platillo
+                border
+                rounded-xl 
+                border-gray-400
+                h-[350px]
+                w-[250px]
+                mx-5
+                " data-platillo="pasta">
+                <img data-src="/assets/img/pasta1.webp" alt="pasta" class="
+                    rounded-t-xl
+                    h-[150px]
+                    w-[230px]
+                    mx-auto
+                    mt-3">
+                <div class="block text-center">
+                    <div>
+                        <h4 class="
+                        text-center
+                        mt-5
+                        text-2xl
+                        font-parrafos
+                        font-bold  
+                        ">
+                            Platillo
+                        </h4>
+                        <p class="mt-3 mx-3 text-left">Receta/ingredientes. Lorem ipsum dolor sit amet consectetur
+                            adipisicing
+                            elit.</p>
+                    </div>
+                    <div class="flex justify-between mx-5 mt-10">
+                        <p class=" 
+                        text-3xl
+                        font-bold
+                        mt-8">$36</p>
+                        <button class="
+                        border
+                        rounded
+                        border-red-800
+                        p-3
+                        bg-rojo"><img class="h-10" data-src="/assets/icons/basket-shopping-solid.svg"
+                                alt="canasta"></button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="
+                platillo
+                border
+                rounded-xl 
+                border-gray-400
+                h-[350px]
+                w-[250px]
+                mx-5
+                " data-platillo="pasta">
+                <img data-src="/assets/img/pasta2.webp" alt="pasta" class="
+                    rounded-t-xl
+                    h-[150px]
+                    w-[230px]
+                    mx-auto
+                    mt-3">
+                <div class="block text-center">
+                    <div>
+                        <h4 class="
+                        text-center
+                        mt-5
+                        text-2xl
+                        font-parrafos
+                        font-bold  
+                        ">
+                            Platillo
+                        </h4>
+                        <p class="mt-3 mx-3 text-left">Receta/ingredientes. Lorem ipsum dolor sit amet consectetur
+                            adipisicing
+                            elit.</p>
+                    </div>
+                    <div class="flex justify-between mx-5 mt-10">
+                        <p class=" 
+                        text-3xl
+                        font-bold
+                        mt-8">$36</p>
+                        <button class="
+                        border
+                        rounded
+                        border-red-800
+                        p-3
+                        bg-rojo"><img class="h-10" data-src="/assets/icons/basket-shopping-solid.svg"
+                                alt="canasta"></button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="
+                platillo
+                border
+                rounded-xl 
+                border-gray-400
+                h-[350px]
+                w-[250px]
+                mx-5
+                " data-platillo="pasta">
+                <img data-src="/assets/img/pasta1.webp" alt="pasta" class="
+                    rounded-t-xl
+                    h-[150px]
+                    w-[230px]
+                    mx-auto
+                    mt-3">
+                <div class="block text-center">
+                    <div>
+                        <h4 class="
+                        text-center
+                        mt-5
+                        text-2xl
+                        font-parrafos
+                        font-bold  
+                        ">
+                            Platillo
+                        </h4>
+                        <p class="mt-3 mx-3 text-left">Receta/ingredientes. Lorem ipsum dolor sit amet consectetur
+                            adipisicing
+                            elit.</p>
+                    </div>
+                    <div class="flex justify-between mx-5 mt-10">
+                        <p class=" 
+                        text-3xl
+                        font-bold
+                        mt-8">$36</p>
+                        <button class="
+                        border
+                        rounded
+                        border-red-800
+                        p-3
+                        bg-rojo"><img class="h-10" data-src="/assets/icons/basket-shopping-solid.svg"
+                                alt="canasta"></button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="
+                platillo
+                border
+                rounded-xl 
+                border-gray-400
+                h-[350px]
+                w-[250px]
+                mx-5
+                " data-platillo="pizza">
+                <img data-src="/assets/img/pizza1.webp" alt="pizza" class="
+                    rounded-t-xl
+                    h-[150px]
+                    w-[230px]
+                    mx-auto
+                    mt-3">
+                <div class="block text-center">
+                    <div>
+                        <h4 class="
+                        text-center
+                        mt-5
+                        text-2xl
+                        font-parrafos
+                        font-bold  
+                        ">
+                            Platillo
+                        </h4>
+                        <p class="mt-3 mx-3 text-left">Receta/ingredientes. Lorem ipsum dolor sit amet consectetur
+                            adipisicing
+                            elit.</p>
+                    </div>
+                    <div class="flex justify-between mx-5 mt-10">
+                        <p class=" 
+                        text-3xl
+                        font-bold
+                        mt-8">$36</p>
+                        <button class="
+                        border
+                        rounded
+                        border-red-800
+                        p-3
+                        bg-rojo"><img class="h-10" data-src="/assets/icons/basket-shopping-solid.svg"
+                                alt="canasta"></button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="
+                platillo
+                border
+                rounded-xl 
+                border-gray-400
+                h-[350px]
+                w-[250px]
+                mx-5
+                " data-platillo="pizza">
+                <img data-src="/assets/img/pizza2.webp" alt="pizza" class="
+                    rounded-t-xl
+                    h-[150px]
+                    w-[230px]
+                    mx-auto
+                    mt-3">
+                <div class="block text-center">
+                    <div>
+                        <h4 class="
+                        text-center
+                        mt-5
+                        text-2xl
+                        font-parrafos
+                        font-bold  
+                        ">
+                            Platillo
+                        </h4>
+                        <p class="mt-3 mx-3 text-left">Receta/ingredientes. Lorem ipsum dolor sit amet consectetur
+                            adipisicing
+                            elit.</p>
+                    </div>
+                    <div class="flex justify-between mx-5 mt-10">
+                        <p class=" 
+                        text-3xl
+                        font-bold
+                        mt-8">$36</p>
+                        <button class="
+                        border
+                        rounded
+                        border-red-800
+                        p-3
+                        bg-rojo"><img class="h-10" data-src="/assets/icons/basket-shopping-solid.svg"
+                                alt="canasta"></button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="
+                platillo
+                border
+                rounded-xl 
+                border-gray-400
+                h-[350px]
+                w-[250px]
+                mx-5
+                " data-platillo="pizza">
+                <img data-src="/assets/img/pizza1.webp" alt="pizza" class="
+                    rounded-t-xl
+                    h-[150px]
+                    w-[230px]
+                    mx-auto
+                    mt-3">
+                <div class="block text-center">
+                    <div>
+                        <h4 class="
+                        text-center
+                        mt-5
+                        text-2xl
+                        font-parrafos
+                        font-bold  
+                        ">
+                            Platillo
+                        </h4>
+                        <p class="mt-3 mx-3 text-left">Receta/ingredientes. Lorem ipsum dolor sit amet consectetur
+                            adipisicing
+                            elit.</p>
+                    </div>
+                    <div class="flex justify-between mx-5 mt-10">
+                        <p class=" 
+                        text-3xl
+                        font-bold
+                        mt-8">$36</p>
+                        <button class="
+                        border
+                        rounded
+                        border-red-800
+                        p-3
+                        bg-rojo"><img class="h-10" data-src="/assets/icons/basket-shopping-solid.svg"
+                                alt="canasta"></button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="
+                platillo
+                border
+                rounded-xl 
+                border-gray-400
+                h-[350px]
+                w-[250px]
+                mx-5
+                " data-platillo="postre">
+                <img data-src="/assets/img/postres2.webp" alt="postre" class="
+                    rounded-t-xl
+                    h-[150px]
+                    w-[230px]
+                    mx-auto
+                    mt-3">
+                <div class="block text-center">
+                    <div>
+                        <h4 class="
+                        text-center
+                        mt-5
+                        text-2xl
+                        font-parrafos
+                        font-bold  
+                        ">
+                            Platillo
+                        </h4>
+                        <p class="mt-3 mx-3 text-left">Receta/ingredientes. Lorem ipsum dolor sit amet consectetur
+                            adipisicing
+                            elit.</p>
+                    </div>
+                    <div class="flex justify-between mx-5 mt-10">
+                        <p class=" 
+                        text-3xl
+                        font-bold
+                        mt-8">$36</p>
+                        <button class="
+                        border
+                        rounded
+                        border-red-800
+                        p-3
+                        bg-rojo"><img class="h-10 " data-src="/assets/icons/basket-shopping-solid.svg"
+                                alt="canasta"></button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="
+                platillo
+                border
+                rounded-xl 
+                border-gray-400
+                h-[350px]
+                w-[250px]
+                mx-5
+                " data-platillo="postre">
+                <img data-src="/assets/img/postres1.webp" alt="postre" class="
+                    rounded-t-xl
+                    h-[150px]
+                    w-[230px]
+                    mx-auto
+                    mt-3">
+                <div class="block text-center">
+                    <div>
+                        <h4 class="
+                        text-center
+                        mt-5
+                        text-2xl
+                        font-parrafos
+                        font-bold  
+                        ">
+                            Platillo
+                        </h4>
+                        <p class="mt-3 mx-3 text-left">Receta/ingredientes. Lorem ipsum dolor sit amet consectetur
+                            adipisicing
+                            elit.</p>
+                    </div>
+                    <div class="flex justify-between mx-5 mt-10">
+                        <p class=" 
+                        text-3xl
+                        font-bold
+                        mt-8">$36</p>
+                        <button class="
+                        border
+                        rounded
+                        border-red-800
+                        p-3
+                        bg-rojo"><img class="h-10" data-src="/assets/icons/basket-shopping-solid.svg"
+                                alt="canasta"></button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="
+                platillo
+                border
+                rounded-xl  
+                border-gray-400
+                h-[350px]
+                w-[250px]
+                mx-5
+                " data-platillo="postre">
+                <img data-src="/assets/img/postres2.webp" alt="postre" class="
+                    rounded-t-xl 
+                    h-[150px]
+                    w-[230px]
+                    mx-auto
+                    mt-3">
+                <div class="block text-center">
+                    <div>
+                        <h4 class="
+                        text-center
+                        mt-5
+                        text-2xl
+                        font-parrafos
+                        font-bold  
+                        ">
+                            Platillo
+                        </h4>
+                        <p class="mt-3 mx-3 text-left">Receta/ingredientes. Lorem ipsum dolor sit amet consectetur
+                            adipisicing
+                            elit.</p>
+                    </div>
+                    <div class="flex justify-between mx-5 mt-10">
+                        <p class=" 
+                        text-3xl
+                        font-bold
+                        mt-8">$36</p>
+                        <button class="
+                        border
+                        rounded
+                        border-red-800
+                        p-3
+                        bg-rojo"><img class="h-10" data-src="/assets/icons/basket-shopping-solid.svg"
+                                alt="canasta"></button>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </section>
+
+    <section class="interseccion h-[350px] w-[100%] mb-10 bg-interseccion bg-cover bg-no-repeat bg-center flex justify-center items-center">
+        <div class="gap-6">
+            <h2 class=" font-bold text-6xl text-white font-titulos ">
+                Cibo italiano per iniziare la giornata
+            </h2>
+            <p class="text-4xl font-extrabold text-black font-parrafos mt-5">
+                Inizia la tua giornata mangiando il nostro cibo delizioso o un caffé
+            </p>
+            <button class="bg-verde font-semibold rounded-lg text-2xl font-sans p-5 mt-3 ">
+                Ordenar Ahora
+            </button>
+        </div>
+    </section>
+
+    <section id="chef" class="cheff xs:grid-flow-row sm-md:grid sm-md:grid-flow-col mx-auto w-[90%]">
+        <div class="m-2 mx-auto w-[80%]">
+            <button class="border rounded-xl p-6 text-white text-5xl bg-rojo font-bold font-serif">
+                Chef Ejecutivo
+            </button>
+            <p class="font-sans font-bold mt-5 text-2xl">
+                La exlencia enta en la diversidad y el modo de progresar es concer y comparar las diversidades de
+                productos, culturas y técnicas.
+            </p>
+            <p class="font-serif font-medium mt-5">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis eligendi nihil reprehenderit facere
+                odio. Dolor iure porro delectus voluptates nemo rem quaerat quae perferendis cupiditate.
+            </p>
+            <button class=" mt-5 rounded bg-verde text-1xl p-5 font font-semibold text-white text-2xl">Leer
+                Biografia</button>
+        </div>
+        <div class=" flex mt-20 sm-md:mt-[150px] md:mt-[100px] sm-md:h-[200px] w-[100%] pl-5 mb-5">
+            <img data-src="/assets/img/chef.webp" alt="chef" height="auto" width="100%">
+        </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="formulario xs:grid-flow-row grid mdd:grid-flow-col h-[650px] w-[95%] mx-auto mb-5">
+        <div class=" flex items-center align-middle p-auto justify-center">
+            <div
+                class="bg-black text-white h-[500px] w-[80%] flex-wrap items-center align-middle p-auto justify-center text-center">
+
+                <h2 class="text-6xl font-serif mt-60">Contactanos</h2>
+                <div class="mt-16 gap-4 flex justify-center align-middle items-center"><i
+                        class="fa-solid fa-location-dot"></i>
+                    <p>23. Roma Italia 75012</p>
+                </div>
+                <div class="flex gap-4 justify-center align-middle items-center mt-5">
+                    <i class="fa-regular fa-envelope"></i>
+                    <p>luca@turilli.it</p>
+                </div>
+                <div class="flex gap-4 justify-center align-middle items-center mt-5">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>+31123410921</p>
+                </div>
+                <div class=" gap-10 mt-5">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+        <div class="
+        flex 
+        items-center
+        align-middle
+        xs:mt-10">
+            <form class="
+            mx-auto
+            w-[150px] 
+            h-[550px] 
+            ">
+                <ul>
+                    <li class="mt-5">
+                        <label class="font-bold text-2xl" for="">Nombres</label>
+                        <input class="
+                        rounded-xl
+                        block 
+                        focus:ring
+                        ring-green-200
+                        outline 
+                        outline-green-400
+                        focus:outline
+                        focus:outline-green-600
+                        mx-auto" 
+                        type="text">
+                    </li>
+                    <li class="mt-5">
+                        <label class="font-bold text-2xl" for="">Apellido</label>
+                        <input class="
+                        rounded-xl
+                        block 
+                        focus:ring
+                        ring-green-200
+                        outline 
+                        outline-green-400
+                        focus:outline
+                        focus:outline-green-600
+                        mx-auto" 
+                        type="text">
+                    </li>
+                    <li class="mt-5">
+                        <label class="font-bold text-2xl" for="">Correo</label>
+                        <input class="
+                        rounded-xl
+                        block 
+                        focus:ring
+                        ring-green-200
+                        outline 
+                        outline-green-400
+                        focus:outline
+                        focus:outline-green-600
+                        mx-auto" 
+                        type="text">
+                    </li>
+                    <li class="mt-5">
+                        <label class="font-bold text-2xl" for="">Teléfono</label>
+                        <input class="
+                            rounded-xl
+                            block 
+                            focus:ring
+                            ring-green-200
+                            outline 
+                            outline-green-400
+                            focus:outline
+                            focus:outline-green-600
+                            mx-auto
+                            mb-10" type="text">
+                    </li>
+                </ul>
+
+                <label class="font-bold text-2xl" for="">Mensaje</label>
+                <textarea 
+                name="" 
+                id="" 
+                class="
+                p-3
+                block 
+                mx-auto 
+                border 
+                border-black 
+                resize-none 
+                w-[250px] 
+                h-[150px]"></textarea>
+                <button class="
+                px-5 
+                py-3 
+                border 
+                rounded-xl  
+                border-green-800 
+                bg-verde 
+                mt-10
+                hover:bg-green-800
+                ">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+<footer class="
+xs:flex-none
+xs:h-[400px]
+xs:mt-[400px]
+xs:text-center
+sm:flex
+sm:mt-[25px]
+mdd:mt-[25px]
+h-[150px]
+text-white 
+bg-black 
+items-center 
+align-middle 
+p-auto 
+justify-center
+gap-20">
+
+    <div class="mx-5">
+        <p class="underline text-3xl font-semibold">Dirección</p>
+        <p class="mt-2">23. Roma Italia 75012</p>
+    </div>
+
+    <div class="mt-5">
+        <p class="underline text-3xl font-semibold">Dias especiales</p>
+        <p class="mt-2">Sábados y Jueves 7am-11pm</p>
+        <p>+3123410921</p>
+    </div>
+
+    <div class="mt-5">
+        <p class="underline text-3xl font-semibold">Horario</p>
+        <p class="mt-2">Lunes - Domingo 7am - 11pm</p>
+        <div>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+    </div>
+
+    <div class="mt-5">
+        <p class="underline text-3xl font-semibold">Noticias</p>
+        <p class="mt-2">Suscribite para  recibir más noticias</p>
+        <input class="block xs:mx-auto mb-5 mt-1 rounded-xl" type="text">
+        <button 
+        class="
+        border 
+        border-white
+        rounded-xl
+        hover:bg-white
+        hover:text-black
+        transition-all
+        duration-300
+        font-semibold
+        p-4">Suscribite</button>
+    </div>
+</footer>
+    <script src="/js/app.js" type="module"></script>
+</body>
+<!-- npx tailwindcss -i ./src/input.css -o ./src/output.css --watch -->
+
+</html>
